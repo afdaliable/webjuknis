@@ -1,0 +1,23 @@
+@media screen and (min-width: 55px) {
+    .-translate-x-99{
+        --tw-translate-x: -24rem!important;
+    }
+    div#sidebar {
+        width: 24rem!important;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    div#sidebar {
+        width: 30rem!important;
+    }
+    .-translate-x-99{
+        --tw-translate-x: -0rem!important;
+    }
+}
+
+
+/* .-translate-x-99{
+    --tw-translate-x: -24rem!important;
+
+} */
