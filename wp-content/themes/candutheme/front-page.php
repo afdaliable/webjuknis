@@ -1169,7 +1169,7 @@
             <h4 class="small-text mb-8 leading-relaxed font-semibold text-sm"></h4>
             <h1 class="heroafdal "> Juknis Aplikasi SAKTI dan Chatbot SAKTI</h1>
             <div class="heroafdal d-flex flex-sm-row flex-column align-items-center mx-lg-0 mx-auto justify-content-center gap-3">
-              <button onclick="afdalKlikJuknis()" class="btn d-inline-flex mb-md-0 btn-try text-white border-0">Akses Juknis</button>
+              <button onclick="afdalKlikJuknis()" class="btn d-inline-flex mb-md-0 btn-try text-white border-0" @click.stop="sidebarOpen = !sidebarOpen" aria-controls="sidebar" :aria-expanded="sidebarOpen"> Akses Juknis</button>
               <button class="btn d-inline-flex mb-md-0 btn-tryy text-white border-0">Akses Chatbot</button>
             </div>
           </div>
@@ -1252,17 +1252,35 @@
             //     ol[i].setAttributeNode(att);
             // }
             btn = document.querySelector("body > div.flex.h-screen.overflow-hidden > div.relative.flex.flex-col.flex-1.overflow-y-auto.overflow-x-hidden > div > div > div > div.left-column.d-flex.flex-lg-grow-1.flex-column.align-items-lg-start.text-lg-start.align-items-center.text-center > div.heroafdal.d-flex.flex-sm-row.flex-column.align-items-center.mx-lg-0.mx-auto.justify-content-center.gap-3 > button.btn.d-inline-flex.mb-md-0.btn-try.text-white.border-0");
-
-            btn.addEventListener('click', function(){
-                document.querySelector("body > div.flex.h-screen.overflow-hidden > div.relative.flex.flex-col.flex-1.overflow-y-auto.overflow-x-hidden > header > div > div > div > button").click(); 
-				document.querySelector("#sidebar > div.space-y-8 > div:nth-child(1) > ul:nth-child(3) > li > a").click();
-            });
-            btn.addEventListener('touchstart', function(){
-                document.querySelector("body > div.flex.h-screen.overflow-hidden > div.relative.flex.flex-col.flex-1.overflow-y-auto.overflow-x-hidden > header > div > div > div > button").click(); 
+            
+            function afdalKlikJuknis(){
                 document.querySelector("#sidebar > div.space-y-8 > div:nth-child(1) > ul:nth-child(3) > li > a").click();
-				
-            });
+            }
+            // btn.addEventListener('touchstart', function(){
+            //     document.querySelector("body > div.flex.h-screen.overflow-hidden > div.relative.flex.flex-col.flex-1.overflow-y-auto.overflow-x-hidden > header > div > div > div > button").click(); 
+			// 	document.querySelector("#sidebar > div.space-y-8 > div:nth-child(1) > ul:nth-child(3) > li > a").click();
+            // });
 
+//             function holdit(btn, action, start, speedup) {
+//                 var t;
+
+//                 var repeat = function () {
+//                     action();
+//                     t = setTimeout(repeat, start);
+//                     start = start / speedup;
+//                 }
+
+//                 btn.mousedown = function() {
+//                     repeat();
+//                 }
+
+//                 btn.mouseup = function () {
+//                     clearTimeout(t);
+//                 }
+//             };
+
+// /* to use */
+// holdit(btn, function () { }, 1000, 2);
            
 
 			
