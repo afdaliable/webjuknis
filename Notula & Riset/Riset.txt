@@ -1,0 +1,18 @@
+Domain web yang akakn digunakan memiliki beberapa alternatif, ada kelebihan dan kekurangan. 
+Pertimbangan dalam memilih domain :
+
+1. nama yang singkat dan mudah diingat
+2. Menggunakan Premium TLD. bukan yang gratisan
+3. nama domain mudah diketik
+4. Menyelipkan kata Kunci
+5. Menggunakan nama yang akan selalu relevan
+6. Belum digunakana pihak lain
+7. Tanpa menggunakan tanda Penghubung
+
+Berdasarkan hasil survey dan riset kita memutuskan menggunakan promain .site karena ini sebuah site untuk juknis dan chatbot. 
+Berkaitan dengan layanan pengguna aplikasi SAKTI yaitu dengan:
+1. Brand HAI (help, answer, Improve)
+2. Chatbot -> karena ini hal unik yang menonjol yang kita miliki dan kita gunakan juga dalam nama domain web
+3. SAKTI -> Aplikasi UTAMA yang digunakan oleh hampir 20ribu Satker.
+
+Oleh karena itu berdasarkan hasil riset dan survey, saya memutuskan untuk menggunakan domain haichatbotsakti.site
